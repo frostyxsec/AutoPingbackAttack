@@ -33,7 +33,7 @@ chmod +x xmlrpc_scanner.sh
 ### **3️⃣ Execute the Script**  
 Run the script using:  
 ```bash
-./xmlrpc_scanner.sh
+./xmlrpc.sh
 ```
 
 ### **4️⃣ Check the Results**  
